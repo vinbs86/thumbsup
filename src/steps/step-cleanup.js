@@ -20,5 +20,4 @@ exports.run = function (fileCollection, outputRoot, callback) {
     useless.forEach(f => fs.unlinkSync(f))
     bar.tick(useless.length)
   }
-  callback()
 }

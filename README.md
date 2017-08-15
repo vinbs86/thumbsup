@@ -33,6 +33,8 @@ npm install -g thumbsup
 thumbsup --input ./media --output ./website
 ```
 
+![Screenshot of output](output.png)
+
 There are many more command line arguments to customise the output.
 You can also run `thumbsup` as a Docker container which pre-packages all dependencies like `ffmpeg`.
 See the website for the full documentation: https://thumbsup.github.io.
